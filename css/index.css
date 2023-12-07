@@ -1,0 +1,152 @@
+@import url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
+
+* {
+    box-sizing: border-box;
+    max-width: auto;
+}
+
+body {
+    font-family: 'Cyberpunk Is Not Dead', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/background.jpg);
+    /*deixar responsivo*/
+    
+}
+
+header {
+    /*background-color: #030305;*/
+    background-color: transparent;
+    color: #377a77;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.selection-container ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px; 
+    justify-content: center;
+}
+
+.item1{
+    grid-column: 1 / 2;
+}
+
+
+
+.selection-container a {
+    display: block;
+    padding: 10px 15px;
+    color: #bbcbe0;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.selection-container a:hover {
+    background-color: #555;
+}
+
+.selection-container a:active {
+    background-color: #000;
+}
+
+.main {
+    text-align: center;
+    color: #5d4483;
+}
+
+.main a {
+    color: #2db8b1;
+    text-shadow: 0 0 5px #2db8b1;
+    text-decoration: none;
+}
+
+.main a:hover {
+    background-color: #555;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    color: #2db8b1;
+    text-shadow: 0 0 5px #2db8b1;
+
+}
+
+.choice {
+    text-align: center;
+    color: #913d5c;
+}
+
+.cart-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#cart-count img {
+    width: 35px;
+    height: auto;
+    padding-top: auto;
+    background-color: #555;
+    border-radius: 25%;
+    margin-left: 150%;    
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #913d5c;
+}
+
+.selection-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #377a77;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #bbcbe0;
+    text-align: center;
+    padding: 5px 0;
+    width: 300px;
+    border-style: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#section:hover {
+    background-color: #555;
+}
+
+
+
+#section option {
+    background-color: #555;
+    color: #bbcbe0;
+    text-align: center;
+    padding: 5px 0;
+    width: 300px;
+    border-style: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 20px;
+    border-radius: 5px;
+}

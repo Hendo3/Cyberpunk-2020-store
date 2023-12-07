@@ -1,0 +1,126 @@
+@import url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
+
+* {
+    box-sizing: border-box;
+    max-width: auto;
+}
+
+body {
+    font-family: 'Cyberpunk Is Not Dead', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/background.jpg);
+}
+
+header {
+    background-color: #030305;
+    color: #377a77;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.header-container ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}
+
+.header-container a {
+    display: block;
+    padding: 1px 1px;
+    color: #bbcbe0;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.header-container a:hover {
+    background-color: #bbcbe0;
+    color: #000;
+}
+
+.category {
+    margin: 20px;
+}
+
+.list {
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    display:grid;
+    flex: 0 0 30%;
+    margin: 2px;
+    padding: 2px;
+    background-color: #8d898094;
+    text-align: center;
+    font-size: 14px;
+    color: #222035;
+    
+}
+
+.buy-button {
+    background-color: #2e2549;
+    color: #377a77;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Cyberpunk Is Not Dead', sans-serif;
+    border: 3px solid #2f404d;
+    vertical-align:text-bottom;    
+}
+
+.buy-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.buy-grid .buy-button-a {
+    background-color: #2e2549;
+    color: #377a77;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Cyberpunk Is Not Dead', sans-serif;
+    border: 3px solid #2f404d;
+    vertical-align:text-bottom;    
+}
+
+.buy-grid .buy-button-a:hover {
+    background-color: #2f404d;
+    color: #913d5c;
+}
+
+.buy-button:hover {
+    background-color: #2f404d;
+    color: #913d5c;
+}
+
+.cart-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#cart-count img {
+    width: 35px;
+    height: auto;
+    padding-top: auto;
+    background-color: #555;
+    border-radius: 25%;
+    margin-left: 150%;    
+}

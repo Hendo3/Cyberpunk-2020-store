@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Groceries</title>
+    <link rel="stylesheet" href="/css/pages.css">
+</head>
+
+<header>
+    <div class="cart-container">
+        <h1>Hendo's CyberStore<br>The best CyberStore in Night City</h1>
+        <a href="/html/lifestile/lifestyle-cart.html" id="cart-count">
+            <img src="/images/compras.png" alt="Shopping cart">      
+        </a>
+    </div>
+    
+    <nav class="header-container">
+        <ul class="header-list">    
+            <a href="/html/lifestile/lifestyle-index.html">Home</a>
+            <a href="/html/lifestile/fashion.html">Fashion</a>
+            <a href="/html/lifestile/tools.html">Tools</a>
+            <a href="/html/lifestile/personal-eletronics.html">Personal<br>eletronics</a>
+            <a href="/html/lifestile/data-systems.html">Data<br>Systems</a>
+            <a href="/html/lifestile/communications.html">Communications</a>
+            <a href="/html/lifestile/surveillance.html">Surveilance</a>
+            <a href="/html/lifestile/entertainment.html">Entertainment</a>
+            <a href="/html/lifestile/security.html">Secutity</a>
+            <a href="/html/lifestile/medical.html">Medical</a>
+            <a href="/html/lifestile/furnishing.html">Furnishing</a>
+            <a href="/html/lifestile/vehicles.html">Vehicles</a>
+            <a href="/html/lifestile/lifestile.html">Lifestyle</a>
+        </ul>
+    </nav>
+</header>
+<section id="lifestyle" class="category">
+    <ul class="list">
+        <li>
+            <h3>Kibble</h3>
+            <p>50eb per week</p>
+            <button class="buy-button" onclick="addToCart('Kibble', 50)">add to cart</button>
+        </li>
+        
+        <li>
+            <h3>Generic prepak</h3>
+            <p>150eb per week</p>
+            <button class="buy-button" onclick="addToCart('Generic prepak', 150)">add to cart</button>
+        </li>
+        
+        <li>
+            <h3>Good prepak</h3>
+            <p>200eb per week</p>
+            <button class="buy-button" onclick="addToCart('Good prepak', 200)">add to cart</button>
+        </li>
+        
+        <li>
+            <h3>Fresh food</h3>
+            <p>300eb per week</p>
+            <button class="buy-button" onclick="addToCart('Fresh food', 300)">add to cart</button>
+        </li>
+        
+</section>
+
+<script src="/js/cart.js"></script>
+
+
+</body>
+
+
+</html>

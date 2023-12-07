@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Biowares</title>
+    <link rel="stylesheet" href="/css/pages.css">
+</head>
+
+<header>
+    <div class="cart-container">
+        <h1>Hendo's CyberStore<br>The best CyberStore in Night City</h1>
+        <a href="/html/cyberware/cyberware-cart.html" id="cart-count">
+            <img src="/images/compras.png" alt="Shopping cart">
+        </a>
+    </div>
+    <nav class="header-container">
+        <ul class="header-itens">
+            <a href="/html/cyberware/cyberware-index.html">Home</a>
+            <a href="/html/cyberware/fashionware.html">Fashionwares</a>
+            <a href="/html/cyberware/neuralware.html">Neuralwares</a>
+            <a href="/html/cyberware/implants.html">Implants</a>
+            <a href="/html/cyberware/cyberweapons.html">Body Cyberweapons</a>
+            <a href="/html/cyberware/cyberoptic.html">Cyberoptics</a>
+            <a href="/html/cyberware/cyberaudio.html">Cyberaudio</a>
+            <a href="/html/cyberware/cyberlimb.html">Cyberlimbs</a>
+            <a href="/html/cyberware/handsnfeets.html">Hands & Feets</a>
+            <a href="/html/cyberware/built-ins.html">Cyberlimbs built ins</a>
+            <a href="/html/cyberware/limbs-cyberweapons.html">Limbs Cyberweapons</a>
+            <a href="/html/cyberware/linear-frames.html">Linear Frames</a>
+            <a href="/html/cyberware/body-plating.html">Body platings</a>
+            <a href="/html/cyberware/chips.html">Chips</a>
+        </ul>
+    </nav>
+</header>
+<section id="biowares" class="category">
+    <ul class="list">
+        <li>
+            <h3>Grafted muscle</h3>
+            <p>Price: 1000eb/pt</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br>Up to +2 increased to body type</p>
+            <p>Surg. MA</p>
+            <p>ID: (GR)</p>
+            <button class="buy-button" onclick="addToCart('GR', 1000)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Muscle and bone lace</h3>
+            <p>Price: 1500eb</p>
+            <p>HC: 2d6/2</p>
+            <p>Description:<br>Raises body type by +2</p>
+            <p>Surg. N</p>
+            <p>ID: (MBL)</p>
+            <button class="buy-button" onclick="addToCart('MBL', 1500)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Skin weave</h3>
+            <p>Price: 2000eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br>Armors body to SP 12</p>
+            <p>Surg. N</p>
+            <p>ID: (SKW)</p>
+            <button class="buy-button" onclick="addToCart('SKW', 2000)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Enhaced atibodies</h3>
+            <p>Price: 3000eb</p>
+            <p>HC: 1d6/2</p>
+            <p>Description:<br>Improve healing by +1 per day</p>
+            <p>Surg. N</p>
+            <p>ID: (EA)</p>
+            <button class="buy-button" onclick="addToCart('EA', 3000)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Toxin binders</h3>
+            <p>Price: 3000eb</p>
+            <p>HC: 1d6/2</p>
+            <p>Description:<br>Improve poison, drug sabes +4</p>
+            <p>Surg. N</p>
+            <p>ID: (TBN)</p>
+            <button class="buy-button" onclick="addToCart('TBN', 3000)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Nanosurgeons</h3>
+            <p>Price: 6000eb</p>
+            <p>HC: 1d6/2</p>
+            <p>Description:<br>Doubles healing rate</p>
+            <p>Surg. N</p>
+            <p>ID: (NSR)</p>
+            <button class="buy-button" onclick="addToCart('NSR', 6000)">add to cart</button>
+    </ul>
+
+</section>
+
+<script src="/js/cart.js"></script>
+
+
+</body>
+
+
+</html>

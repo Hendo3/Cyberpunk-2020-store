@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
+
+body {
+    font-family: 'Cyberpunk Is Not Dead', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/background.jpg);
+}
+
+header {
+    background-color: #030305;
+    color: #377a77;
+    text-align: center;
+    padding: 5px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+#addres {
+    margin: 10px;
+    color: #377a77;
+    padding: 1%;
+    align-items: auto;
+}
+
+#addres-itens {
+    /* distance between the label and input must be the same independent of label size
+    and input must be show ine behind other*/
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 10px;
+    justify-content: center;
+}
+
+#adress-itens li {
+    text-decoration: none;
+}
+
+#addres-itens label {
+    display: grid;
+    padding: 10px 10px;
+    color: #377a77;
+    text-decoration: none;
+    width: 100%;
+    font-size: large;
+}
+
+#addres-itens input {
+    display: grid;
+    padding: 10px 10px;
+    color: #030305;
+    text-decoration: none;
+    text-align: left;
+    width: 25%;
+    background-color: #bbcbe0;
+    border: none ;
+}
+
+#complement {
+    display: grid;
+    padding: 10px 10px;
+    color: #030305;
+    text-decoration: none;
+    text-align: left;
+    width: 25%;
+    background-color: #bbcbe0;
+    border: none ;
+}
+
+#district {
+    display: grid;
+    padding: 10px 10px;
+    color: #030305;
+    text-decoration: none;
+    text-align: left;
+    width: 25%;
+    background-color: #bbcbe0;
+    border: none ;
+}
+
+#confirm {
+    color: #377a77;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fashionwares</title>
+    <link rel="stylesheet" href="/css/pages.css">
+</head>
+
+<header>
+    <div class="cart-container">
+        <h1>Hendo's CyberStore<br>The best CyberStore in Night City</h1>
+        <a href="/html/cyberware/cyberware-cart.html" id="cart-count">
+            <img src="/images/compras.png" alt="Shopping cart">
+        </a>
+    </div>
+    <nav class="header-container">
+        <ul class="header-itens">
+            <a href="/html/cyberware/cyberware-index.html">Home</a>
+            <a href="/html/cyberware/fashionware.html">Fashionwares</a>
+            <a href="/html/cyberware/neuralware.html">Neuralwares</a>
+            <a href="/html/cyberware/implants.html">Implants</a>
+            <a href="/html/cyberware/bioware.html">Biowares</a>
+            <a href="/html/cyberware/cyberweapons.html">Body Cyberweapons</a>
+            <a href="/html/cyberware/cyberoptic.html">Cyberoptics</a>
+            <a href="/html/cyberware/cyberaudio.html">Cyberaudio</a>
+            <a href="/html/cyberware/cyberlimb.html">Cyberlimbs</a>
+            <a href="/html/cyberware/handsnfeets.html">Hands & Feets</a>
+            <a href="/html/cyberware/built-ins.html">Cyberlimbs built ins</a>
+            <a href="/html/cyberware/limbs-cyberweapons.html">Limbs Cyberweapons</a>
+            <a href="/html/cyberware/linear-frames.html">Linear Frames</a>
+            <a href="/html/cyberware/chips.html">Chips</a>
+        </ul>
+    </nav>
+</header>
+
+<section id="biowares" class="category">
+    <ul class="list">
+        <li>
+            <h3>Cowl</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 1d6</p>
+            <p>Description: <br>Skullcap, covers head in SP 25</p>
+            <p>Surg. MA</p>
+            <p>ID: (SKULL)</p>
+            <button class="buy-button" onclick="addToCart('SKULL', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Faceplate</h3>
+            <p>Price: 400eb</p>
+            <p>HC: 4d6</p>
+            <p>Description: <br>Protective facemask. SP 25</p>
+            <p>Surg. CR</p>
+            <p>ID: (FACE)</p>
+            <button class="buy-button" onclick="addToCart('FACE', 400)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Torso plate</h3>
+            <p>Price: 2000eb</p>
+            <p>HC: 3d6</p>
+            <p>Description: <br>Torso protection. SP 25</p>
+            <p>Surg. MA</p>
+            <p>ID: (TORS)</p>
+            <button class="buy-button" onclick="addToCart('TORS', 2000)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Front optic mount</h3>
+            <p>Price: 1000eb</p>
+            <p>HC: 4d6</p>
+            <p>Description: <br>Allows up to 5 optics to be mounted on face</p>
+            <p>Surg. MA</p>
+            <p>ID: (FOM)</p>
+            <button class="buy-button" onclick="addToCart('FOM', 1000)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Sense ext ("rabbit ears")</h3>
+            <p>Price: 500eb ea</p>
+            <p>HC: 3d6</p>
+            <p>Description: <br>Head mounted extensors for audio, optics, etc.</p>
+            <p>Surg. M</p>
+            <p>ID: (RABB)</p>
+            <button class="buy-button" onclick="addToCart('RAAB', 500)">add to cart</button>
+        </li>
+    </ul>
+
+</section>
+<script src="/js/cart.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/html/general/purchase.css">
+    <title>Purchase Confirmation</title>
+</head>
+<body>
+
+<header>
+    <h1>Purchase Confirmation</h1>
+</header>
+
+
+
+<section id="confirmation">
+    <h3>Thank you for your purchase <span id="name">{name}</span> !</h3>
+    <p>Your package will be sent to:</p><br>
+    <p id="street">{street}</p>
+    <p id="number">{number}</p>
+    <p id="complement">{complement}</p>
+    <p id="district">{district}</p>
+    <p id="code">{code}</p>
+</section>
+
+<section id=list>
+    <h2>List of Itens</h2>
+    <ul id="itens-list" class="ls">
+        <!--Dinamicaly add-->
+    </ul>
+    <p><span id="total" class="ls">{total}</span></p>
+</section>
+
+
+<script src="/js/confirmation.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1">
+    <title>Fashionwares</title>
+    <link rel="stylesheet" href="/css/pages.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="cart-container">
+        <h1>Hendo's CyberStore<br>The best CyberStore in Night City</h1>
+            <a href="/html/cyberware/cyberware-cart.html" id="cart-count">
+                <img src="/images/compras.png" alt="Shopping cart">
+            </a>
+        </div>
+        <nav class="header-container">
+            <ul class="header-itens">
+                <a href="/html/cyberware/cyberware-index.html">Home</a>
+                <a href="/html/cyberware/neuralware.html">Neuralwares</a>
+                <a href="/html/cyberware/implants.html">Implants</a>
+                <a href="/html/cyberware/bioware.html">Biowares</a>
+                <a href="/html/cyberware/cyberweapons.html">Body Cyberweapons</a>
+                <a href="/html/cyberware/cyberoptic.html">Cyberoptics</a>
+                <a href="/html/cyberware/cyberaudio.html">Cyberaudio</a>
+                <a href="/html/cyberware/cyberlimb.html">Cyberlimbs</a>
+                <a href="/html/cyberware/handsnfeets.html">Hands & Feets</a>
+                <a href="/html/cyberware/built-ins.html">Cyberlimbs built ins</a>
+                <a href="/html/cyberware/limbs-cyberweapons.html">Limbs Cyberweapons</a>
+                <a href="/html/cyberware/linear-frames.html">Linear Frames</a>
+                <a href="/html/cyberware/body-plating.html">Body platings</a>
+                <a href="/html/cyberware/chips.html">Chips</a>
+            </ul>
+        </nav>
+    </header>   
+
+    <section id="biowares" class="category">
+        <ul class="list">
+            
+            <li>
+                <!--<div><img src="images/22.png" alt="biomonitor"></div>-->
+                <h3>Biomonitor</h3>
+                <p>Price: 100eb</p>
+                <p>HC: 1</p>
+                <p>Description:<br> +2 to resist Torture & Drugs</p>
+                <p>Surg. N</p>
+                <p>ID: (BIO)</p>
+                <button class="buy-button" onclick="addToCart('BIO', 100)">add to cart</button>
+            </li>
+
+            <li>
+                <!--<div><img src="images/22.png" alt="skinwatch"></div>-->
+                <h3>Skinwatch</h3>
+                <p>Price: 50eb</p>
+                <p>HC: 1</p>
+                <p>Description:<br> Subdermal timepiece</p>
+                <p>Surg. N</p>
+                <p>ID: (SWTC)</p>
+                <button class="buy-button" onclick="addToCart('SWTC', 50)">add to cart</button>
+            </li>
+
+            <li>
+                <!--<div><img src="images/22.png" alt="light-tattoo"></div>-->
+                <h3>Light tattoo</h3>
+                <p>Price: 20eb</p>
+                <p>HC: 0.5</p>
+                <p>Description:<br> Decorative tattoo</p>
+                <p>Surg. N</p>
+                <p>ID: (LT)</p>
+                <button class="buy-button" onclick="addToCart('LT', 20)">add to cart</button>
+            </li>
+
+            <li>
+                <!--<div><img src="images/22.png" alt="shift-tacts"></div>-->
+                <h3>Shift-Tacts</h3>
+                <p>Price: 50eb</p>
+                <p>HC: 0.5</p>
+                <p>Description:<br> Color changing contact lenses</p>
+                <p>Surg. N</p>
+                <p>ID: (SHF)</p>
+                <button class="buy-button" onclick="addToCart('SHF', 50)">add to cart</button>
+            </li>
+
+            <li>
+                <!--<div><img src="images/22.png" alt="chem-skins"></div>-->
+                <h3>Chem Skins</h3>
+                <p>Price: 200eb</p>  
+                <p>HC: 1d6/2</p>
+                <p>Description:<br> Color/pattern changing skin tint</p>
+                <p>Surg. N</p>
+                <p>ID: (CSK)</p>
+                <button class="buy-button" onclick="addToCart('CSK', 200)">add to cart</button>
+
+            <li>
+                <!--<div><img src="images/22.png" alt="synthskin"></div>-->
+                <h3>Synthskin</h3>
+                <p>Price: 400eb</p>
+                <p>HC: 1d6</p>
+                <p>Description:<br> Color/pattern changing artificial skin</p>
+                <p>Surg. N</p>
+                <p>ID: (SYN)</p>
+                <button class="buy-button" onclick="addToCart('SYN', 400)">add to cart</button>
+            </li>
+
+            <li>
+                <!--<div><img src="images/22.png" alt="techhair"></div>-->
+                <h3>Techhair</h3>
+                <p>Price: 200eb</p>
+                <p>HC: 2</p>
+                <p>Description:<br> Color/light emitting artificial hair</p>
+                <p>Surg. M</p>
+                <p>ID: (TEH)</p>
+                <button class="buy-button" onclick="addToCart('TEH', 200)">add to cart</button>            
+            </li>
+        </ul>
+    </section>
+    <script src="/js/cart.js"></script>
+
+    
+</body>
+</html>

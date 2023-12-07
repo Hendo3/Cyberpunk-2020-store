@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Built Ins</title>
+    <link rel="stylesheet" href="/css/pages-2.css">
+</head>
+
+<header>
+    <div class="cart-container">
+        <h1>Hendo's CyberStore<br>The best CyberStore in Night City</h1>
+        <a href="/html/cyberware/cyberware-cart.html" id="cart-count">
+            <img src="/images/compras.png" alt="Shopping cart">
+        </a>
+    </div>
+    <nav class="header-container">
+        <ul class="header-itens">
+            <a href="/html/cyberware/cyberware-index.html">Home</a>
+            <a href="/html/cyberware/fashionware.html">Fashionwares</a>
+            <a href="/html/cyberware/neuralware.html">Neuralwares</a>
+            <a href="/html/cyberware/implants.html">Implants</a>
+            <a href="/html/cyberware/bioware.html">Biowares</a>
+            <a href="/html/cyberware/cyberweapons.html">Body Cyberweapons</a>
+            <a href="/html/cyberware/cyberoptic.html">Cyberoptics</a>
+            <a href="/html/cyberware/cyberaudio.html">Cyberaudio</a>
+            <a href="/html/cyberware/cyberlimb.html">Cyberlimbs</a>
+            <a href="/html/cyberware/handsnfeets.html">Hands & Feets</a>
+            <a href="/html/cyberware/limbs-cyberweapons.html">Limbs Cyberweapons</a>
+            <a href="/html/cyberware/linear-frames.html">Linear Frames</a>
+            <a href="/html/cyberware/body-plating.html">Body platings</a>
+            <a href="/html/cyberware/chips.html">Chips</a>
+        </ul>
+    </nav>
+</header>
+
+<section id="biowares" class="category">
+    <ul class="list">
+
+
+        <li>
+            <h3>AV tape recorder</h3>
+            <p>Price: 250eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br> 2 hour micro cassete storage, needs ext. pickup</p>
+            <p>Surg. N</p>
+            <p>ID: (AVR2)</p>
+            <button class="buy-button" onclick="addToCart('AVR2', 250)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Cybermodem</h3>
+            <p>Price: <br>3000eb cyberdeck<br>5000eb Cellular</p>
+            <p>HC: 1</p>
+            <p>Description:<br> Built in "cyberdeck"</p>
+            <p>Surg. N</p>
+            <p>ID: (CMD)</p>
+            <section class="buy-grid">
+                <button class="buy-button-a" onclick="addToCart('CMD', 3000)">Cyberdeck</button>
+                <button class="buy-button-a" onclick="addToCart('CMD-CELLULAR', 5000)">Cellular</button>
+            </section>
+        </li>
+
+        <li>
+            <h3>Digital recorder</h3>
+            <p>Price: 300eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br> Digital chip recorder. Must download or erase chip</p>
+            <p>Surg. N</p>
+            <p>ID: (DCRC)</p>
+            <button class="buy-button" onclick="addToCart('DCRC', 300)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Storage space</h3>
+            <p>Price: 50eb</p>
+            <p>HC: 0.5</p>
+            <p>Description:<br> 2"x6" storages space. Can be locked</p>
+            <p>Surg. N</p>
+            <p>ID: (STR)</p>
+            <button class="buy-button" onclick="addToCart('STR', 50)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Minicam</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Pop up Digital camera (20 shots)</p>
+            <p>Surg. N</p>
+            <p>ID: (CAM)</p>
+            <button class="buy-button" onclick="addToCart('CAM', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Minivid</h3>
+            <p>Price: 400eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Pop up mini video (30 minutes)</p>
+            <p>Surg. N</p>
+            <p>ID: (MVID)</p>
+            <button class="buy-button" onclick="addToCart('MVID', 400)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Hidden holster</h3>
+            <p>Price: 100eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br> Weapon size based on body type</p>
+            <p>Surg. N</p>
+            <p>ID: (HOL)</p>
+            <button class="buy-button" onclick="addToCart('HOL', 100)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>LCD screen readout</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br> Can be linked to any output device</p>
+            <p>Surg. N</p>
+            <p>ID: (LCD)</p>
+            <button class="buy-button" onclick="addToCart('LCD', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Techscanner</h3>
+            <p>Price: 400eb</p>
+            <p>HC: 3</p>
+            <p>Description:<br> Can be hooked up to diagnostic system to determine possible problems </p>
+            <p>Surg. N</p>
+            <p>ID: (TKSN)</p>
+            <button class="buy-button" onclick="addToCart('TKSN', 400)">add to cart</button>
+        </li>
+
+    </ul>
+</section>
+<script src="/js/cart.js"></script>
+
+</body>
+
+
+</html>

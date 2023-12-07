@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/html/general/confirmation.css">
+    <title>Package send</title>
+</head>
+<body>
+
+<header>
+    <h1>Night City Address Form</h1>
+    <p>Thanks for you purchase
+        <br>
+        Please fill the form below to send your package
+    </p>
+</header>
+
+<section id="addres">
+    <form onsubmit="submitAddress(event)" id="addres-itens">
+
+        <label for="name">Name: </label>
+        <input type="text" name="name-form" id="name" required>
+        
+        <label for="street">Street: </label>
+        <input type="text" name="street-form" id="street" required>
+
+        <label for="number">Number: </label>
+        <input type="number" name="number-form" id="number" required>
+
+        <label for="complement">Complement: </label>
+        <select name="complement-form" id="complement" required>
+            <option value="Apartment">Apartment</option>
+            <option value="Building">Building</option>
+            
+            <option value="House">House</option>
+                <optgroup label="Corporations">
+                    <option value="Arasaka">Arasaka</option>
+                    <option value="Militech">Militech</option>
+                    <option value="Trauma-team">Trauma Team</option>
+                    <option value="Kang-Tao">Kang Tao</option>
+                    <option value="Biotechnica">Biotechnica</option>
+                    <option value="Night-Corp">Night Corp</option>
+                    <option value="Lazarus">Lazarus</option>
+                    <option value="Quadra">Quadra</option>
+                </optgroup>
+            <option value="Office">Office</option>
+            <option value="Megabuild">Megabuild</option>
+        </select>
+            
+        <label for="district">District: </label>
+        <select name="district-form" id="district" required>    
+            
+            <optgroup label="City center">
+                <option value="Corpo-plaza">Corpo Plaza</option>
+                <option value="Downtown">Downtown</option>
+            </optgroup>
+
+            <optgroup label="Heywood">
+                <option value="The-glen">The Glen</option>
+                <option value="Vista-del-rey">Vista del Rey</option>
+                <option value="Wellsprings">Wellsprings</option>
+            </optgroup>
+
+            <optgroup label="Pacifica">
+                <option value="Coastview">Coastview</option>
+                <option value="Dogtown">Dogtown</option>
+                <option value="West-wind-estate">West Wind Estate</option>
+            </optgroup>
+
+            <optgroup label="Santo-Domingo">
+                <option value="Arroyo">Arroyo</option>
+                <option value="Rancho-coronado">Rancho coronado</option>
+            </optgroup>
+
+            <optgroup label="Watson">
+                <option value="Arasaka-waterfront">Arasaka Waterfront</option>
+                <option value="Kabuki">Kabuki</option>
+                <option value="Little-china">Little China</option>
+                <option value="Northside-industrial-district">Northside Northside Industrial District</option>
+            </optgroup>
+
+            <optgroup label="Westbrook">
+                <option value="Charter-hill">Charter Hill</option>
+                <option value="Japantown">Japantown</option>
+                <option value="North-oak">North Oak</option>
+            </optgroup>
+        </select>
+    </form>
+    
+    <button id="confirm" onclick="submitAddress(event)">Send</button>
+</section>
+
+<script src="/js/address-form.js"></script>
+</body>
+</html>

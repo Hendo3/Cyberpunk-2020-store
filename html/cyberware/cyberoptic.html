@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Cyberoptics</title>
+    <link rel="stylesheet" href="/css/pages.css">
+</head>
+
+<header>
+    <div class="cart-container">
+        <h1>Hendo's CyberStore<br>The best CyberStore in Night City</h1>
+        <a href="/html/cyberware/cyberware-cart.html" id="cart-count">
+            <img src="/images/compras.png" alt="Shopping cart">
+        </a>
+    </div>
+    <nav class="header-container">
+        <ul class="header-itens">
+            <a href="/html/cyberware/cyberware-index.html">Home</a>
+            <a href="/html/cyberware/fashionware.html">Fashionwares</a>
+            <a href="/html/cyberware/neuralware.html">Neuralwares</a>
+            <a href="/html/cyberware/implants.html">Implants</a>
+            <a href="/html/cyberware/bioware.html">Biowares</a>
+            <a href="/html/cyberware/cyberweapons.html">Body Cyberweapons</a>
+            <a href="/html/cyberware/cyberaudio.html">Cyberaudio</a>
+            <a href="/html/cyberware/cyberlimb.html">Cyberlimbs</a>
+            <a href="/html/cyberware/handsnfeets.html">Hands & Feets</a>
+            <a href="/html/cyberware/built-ins.html">Cyberlimbs built ins</a>
+            <a href="/html/cyberware/limbs-cyberweapons.html">Limbs Cyberweapons</a>
+            <a href="/html/cyberware/linear-frames.html">Linear Frames</a>
+            <a href="/html/cyberware/body-plating.html">Body platings</a>
+            <a href="/html/cyberware/chips.html">Chips</a>
+        </ul>
+    </nav>
+</header>
+
+<section id="biowares" class="category">
+    <ul class="list">
+        <li>
+            <h3>Cyberoptic</h3>
+            <p>Price: 500eb</p>
+            <p>HC: 2d6 each</p>
+            <p>Description:<br>Basic eye add to cartule (add yp to 4 options per eye)</p>
+            <p>Surg. MA</p>
+            <p>ID: (-)</p>
+            <button class="buy-button" onclick="addToCart('Cyberoptics', 500)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Color shift</h3>
+            <p>Price: 300eb</p>
+            <p>HC: 0.5</p>
+            <p>Description:<br>Allow color change, special fashion effects</p>
+            <p>Surg. N</p>
+            <p>ID: (CF)</p>
+            <button class="buy-button" onclick="addToCart('CF', 300)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Image enhacement</h3>
+            <p>Price: 400eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br>+2 awareness when using visual search</p>
+            <p>Surg. N</p>
+            <p>ID: (IE)</p>
+            <button class="buy-button" onclick="addToCart('IE', 400)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Targeting scope</h3>
+            <p>Price: 400eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br>+1 on all Smartguns attacks</p>
+            <p>Surg. N</p>
+            <p>ID: (TA)</p>
+            <button class="buy-button" onclick="addToCart('TA', 400)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Times square marquee</h3>
+            <p>Price: 300eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br>LED screen in vision field for messages</p>
+            <p>Surg. N</p>
+            <p>ID: (TS)</p>
+            <button class="buy-button" onclick="addToCart('TS', 300)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Teleoptics</h3>
+            <p>Price: 150eb</p>
+            <p>HC: 0.5</p>
+            <p>Description:<br>Telescope ability to 20x</p>
+            <p>Surg. N</p>
+            <p>ID: (TE)</p>
+            <button class="buy-button" onclick="addToCart('TE', 150)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Micro-optics</h3>
+            <p>Price: 150eb</p>
+            <p>HC: 0.5</p>
+            <p>Description:<br>Microscope</p>
+            <p>Surg. N</p>
+            <p>ID: (ME)</p>
+            <button class="buy-button" onclick="addToCart('ME', 150)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Antidazzle</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 0.5</p>
+            <p>Description:<br>Immune to flash, laser blinding</p>
+            <p>Surg. N</p>
+            <p>ID: (AD)</p>
+            <button class="buy-button" onclick="addToCart('AD', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Low lite</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 0.5</p>
+            <p>Description:<br>See in dim light, almost total darkness</p>
+            <p>Surg. N</p>
+            <p>ID: (LL)</p>
+            <button class="buy-button" onclick="addToCart('LL', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Thermograph sensor</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br>See heat patterns, temperature readings</p>
+            <p>Surg. N</p>
+            <p>ID: (TH)</p>
+            <button class="buy-button" onclick="addToCart('TH', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Infrared</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br>See in total darkness, using heat emissions</p>
+            <p>Surg. N</p>
+            <p>ID: (IR)</p>
+            <button class="buy-button" onclick="addToCart('IR', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Ultraviolet</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br>See in darkness, using UV flash</p>
+            <p>Surg. N</p>
+            <p>ID: (UV)</p>
+            <button class="buy-button" onclick="addToCart('UV', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>MicroVideo optic</h3>
+            <p>Price: 300eb</p>
+            <p>HC: 0.5</p>
+            <p>Description:<br>Video record up to 20min (takes 2 options spaces)</p>
+            <p>Surg. N</p>
+            <p>ID: (MV)</p>
+            <button class="buy-button" onclick="addToCart('MV', 300)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Digital camera</h3>
+            <p>Price: 300eb</p>
+            <p>HC: 0.5</p>
+            <p>Description:<br>Digigital camera, shoots up 20 images (as 2 options)</p>
+            <p>Surg. N</p>
+            <p>ID: (DC)</p>
+            <button class="buy-button" onclick="addToCart('DC', 300)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Dart gun</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br>Poison weapon (takes 3 options spaces). Holds 1 dart</p>
+            <p>Surg. N</p>
+            <p>ID: (DE)</p>
+            <button class="buy-button" onclick="addToCart('DE', 200)">add to cart</button>
+        </li>
+    </ul>
+</section>
+<script src="/js/cart.js"></script>
+
+</body>
+
+
+</html>

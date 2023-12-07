@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Neuralwares</title>
+    <link rel="stylesheet" href="/css/pages.css">
+</head>
+
+<header>
+    <div class="cart-container">
+    <h1>Hendo's CyberStore<br>The best CyberStore in Night City</h1>
+        <a href="/html/cyberware/cyberware-cart.html" id="cart-count">
+            <img src="/images/compras.png" alt="Shopping cart">
+        </a>
+    </div>
+    <nav class="header-container">
+        <ul class="header-itens">
+            <a href="/html/cyberware/cyberware-index.html">Home</a>
+            <a href="/html/cyberware/fashionware.html">Fashionwares</a>
+            <a href="/html/cyberware/implants.html">Implants</a>
+            <a href="/html/cyberware/bioware.html">Biowares</a>
+            <a href="/html/cyberware/cyberweapons.html">Body Cyberweapons</a>
+            <a href="/html/cyberware/cyberoptic.html">Cyberoptics</a>
+            <a href="/html/cyberware/cyberaudio.html">Cyberaudio</a>
+            <a href="/html/cyberware/cyberlimb.html">Cyberlimbs</a>
+            <a href="/html/cyberware/handsnfeets.html">Hands & Feets</a>
+            <a href="/html/cyberware/built-ins.html">Cyberlimbs built ins</a>
+            <a href="/html/cyberware/limbs-cyberweapons.html">Limbs Cyberweapons</a>
+            <a href="/html/cyberware/linear-frames.html">Linear Frames</a>
+            <a href="/html/cyberware/body-plating.html">Body platings</a>
+            <a href="/html/cyberware/chips.html">Chips</a>
+        </ul>
+    </nav>
+</header>
+
+<section id="biowares" class="category">
+    <ul class="list">
+        <li>
+            <h3>Neuralware (Processor)</h3>
+            <p>Price: 1000eb</p>
+            <p>HC: 1d6</p>
+            <p>Description:<br> Basic processor for all systems</p>
+            <p>Surg. M</p>
+            <p>ID: (-)</p>
+            <button class="buy-button" onclick="addToCart('Neuralware (Processor)', 1000)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Karenzikov Boostware</h3>
+            <p>Price: 500eb</p>
+            <p>HC: 1d6/2d6</p>
+            <p>Description:<br> Adds +1 to initiative rolls for every level bought</p>
+            <p>Surg. N</p>
+            <p>ID: (RFB)</p>
+            <button class="buy-button" onclick="addToCart('RFB', 500)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Speedware (Sandevistan)</h3>
+            <p>Price: 1600eb</p>
+            <p>HC: 1d6/2</p>
+            <p>Description:<br> Adds +3 to initiative rolls for 5 turns</p>
+            <p>Surg. N</p>
+            <p>ID: (SW)</p>
+            <button class="buy-button" onclick="addToCart('SW', 1600)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Tacitile boost)</h3>
+            <p>Price: 100eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Increased sensitivity. +2 on any touch awareness check</p>
+            <p>Surg. N</p>
+            <p>ID: (TB)</p>
+            <button class="buy-button" onclick="addToCart('TB', 100)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Olfactory boost</h3>
+            <p>Price: 100eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Increased awareness via smell by +2. Allow scent check </p>
+            <p>Surg. N</p>
+            <p>ID: (OLF)</p>
+            <button class="buy-button" onclick="addToCart('OLF', 100)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Pain editor</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br> Tunes out hot, cold, pain </p>
+            <p>Surg. N</p>
+            <p>ID: (TE)</p>
+            <button class="buy-button" onclick="addToCart('TE', 200)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Cyberadd to cartem link</h3>
+            <p>Price: 100eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br> Allows direct connection to a cyberadd to cartem</p>
+            <p>Surg. N</p>
+            <p>ID: (PE)</p>
+            <button class="buy-button" onclick="addToCart('PE', 100)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Vehicle link</h3>
+            <p>Price: 100eb</p>
+            <p>HC: 3</p>
+            <p>Description:<br> For direct vehicle operation only</p>
+            <p>Surg. N</p>
+            <p>ID: (VNLK)</p>
+            <button class="buy-button" onclick="addToCart('VNLK', 100)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Smartgun Link</h3>
+            <p>Price: 100eb</p>
+            <p>HC: 3</p>
+            <p>Description:<br> For direct smartweapon operation only </p>
+            <p>Surg. N</p>
+            <p>ID: (WNLK)</p>
+            <button class="buy-button" onclick="addToCart('WNLK', 100)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Machine/Tech link</h3>
+            <p>Price: 100eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Allows control of autofactories, large & small machines</p>
+            <p>Surg. N</p>
+            <p>ID: (MLNK)</p>
+            <button class="buy-button" onclick="addToCart('MLNK', 100)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Interface plugs</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Allows direct connection to smart weapons, vehicles</p>
+            <p>Surg. M</p>
+            <p>ID: (PlG)</p>
+            <button class="buy-button" onclick="addToCart('PLG', 200)">add to cart</button>        
+        </li>
+
+        <li>
+            <h3>Reflex Chips</h3>
+            <p>Price: Varie</p>
+            <p>HC: 0</p>
+            <p>Description:<br> Chip reflex based skils, Tech skills requiring manipulation</p>
+            <p>Surg. -</p>
+            <p>ID: (ATPR)</p>
+            <a href="chips.html" class="buy-button">Choose a chip</a>
+        </li>
+
+        <li>
+            <h3>Memory Chips</h3>
+            <p>Price: Varies</p>
+            <p>HC: 0</p>
+            <p>Description:<br> Chips INT and other cognitive skills, databases</p>
+            <p>Surg. -</p>
+            <p>ID: (NRAM)</p>
+            <a href="chips.html" class="buy-button">Choose a chip</a>
+        </li>
+
+        <li>
+            <h3>Chipware Socket</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 1d6/2</p>
+            <p>Description:<br> Allows up to be loaded</p>
+            <p>Surg. N</p>
+            <p>ID: (-)</p>
+            <button class="buy-button" onclick="addToCart('Chipware Socket', 200)">add to cart</button>
+        </li>
+
+    </ul>
+</section>
+<script src="/js/cart.js"></script>
+</body>
+</html>

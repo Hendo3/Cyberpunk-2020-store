@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hands & Feets</title>
+    <link rel="stylesheet" href="/css/pages.css">
+</head>
+
+<header>
+    <div class="cart-container">
+        <h1>Hendo's CyberStore<br>The best CyberStore in Night City</h1>
+        <a href="/html/cyberware/cyberware-cart.html" id="cart-count">
+            <img src="/images/compras.png" alt="Shopping cart">
+        </a>
+    </div>
+    <nav class="header-container">
+        <ul class="header-itens">
+            <a href="/html/cyberware/cyberware-index.html">Home</a>
+            <a href="/html/cyberware/fashionware.html">Fashionwares</a>
+            <a href="/html/cyberware/neuralware.html">Neuralwares</a>
+            <a href="/html/cyberware/implants.html">Implants</a>
+            <a href="/html/cyberware/bioware.html">Biowares</a>
+            <a href="/html/cyberware/cyberweapons.html">Body Cyberweapons</a>
+            <a href="/html/cyberware/cyberoptic.html">Cyberoptics</a>
+            <a href="/html/cyberware/cyberaudio.html">Cyberaudio</a>
+            <a href="/html/cyberware/cyberlimb.html">Cyberlimbs</a>
+            <a href="/html/cyberware/built-ins.html">Cyberlimbs built ins</a>
+            <a href="/html/cyberware/limbs-cyberweapons.html">Limbs Cyberweapons</a>
+            <a href="/html/cyberware/linear-frames.html">Linear Frames</a>
+            <a href="/html/cyberware/body-plating.html">Body platings</a>
+            <a href="/html/cyberware/chips.html">Chips</a>
+        </ul>
+    </nav>
+</header>
+
+<section id="biowares" class="category">
+    <ul class="list">
+
+        <li>
+            <h3>Standart Hands</h3>
+            <p>Price: 150eb</p>
+            <p>HC: 0</p>
+            <p>Description:<br> Resembles normal hands</p>
+            <p>Surg. N</p>
+            <p>ID: (STD)</p>
+            <button class="buy-button" onclick="addToCart('STD', 150)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Ripper Hands</h3>
+            <p>Price: 600eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br> Standart hand whith rippers built in</p>
+            <p>Surg. N</p>
+            <p>ID: (RPH)</p>
+            <button class="buy-button" onclick="addToCart('RPH', 600)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Hammerhand</h3>
+            <p>Price: 600eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br> Hydraulic ram fist does 1d10 damage</p>
+            <p>Surg. N</p>
+            <p>ID: (HAM)</p>
+            <button class="buy-button" onclick="addToCart('HAM', 600)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Buzz Hand</h3>
+            <p>Price: 600eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br> Wire circular saw. 2d6+2 damage, soft armor reduced</p>
+            <p>Surg. N</p>
+            <p>ID: (BUZ)</p>
+            <button class="buy-button" onclick="addToCart('BUZ', 600)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Tool Hand</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Fingers contain scewdriver, wrench, small drill, etc.</p>
+            <p>Surg. N</p>
+            <p>ID: (TOL)</p>
+            <button class="buy-button" onclick="addToCart('TOL', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Grapple Hand</h3>
+            <p>Price: 350eb</p>
+            <p>HC: 3</p>
+            <p>Description:<br> Extends rocket-propelled grapple, 100' line</p>
+            <p>Surg. N</p>
+            <p>ID: (GRP)</p>
+            <button class="buy-button" onclick="addToCart('GRP', 350)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Extension Hand</h3>
+            <p>Price: 350eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Hands extends on collapse sleeve up 1m</p>
+            <p>Surg. N</p>
+            <p>ID: (EXT)</p>
+            <button class="buy-button" onclick="addToCart('EXT', 350)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Spike Hand</h3>
+            <p>Price: 500eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br> Pallm spike extends thru fingers. 1d6+3 AP damage </p>
+            <p>Surg. N</p>
+            <p>ID: (SPK)</p>
+            <button class="buy-button" onclick="addToCart('SPK', 500)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>add to cartular Hand</h3>
+            <p>Price: 600eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Choose 4 add to cartular tools</p>
+            <p>Surg. N</p>
+            <p>ID: (add to cart)</p>
+            <button class="buy-button" onclick="addToCart('add to cart', 600)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Standart Foot</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 0</p>
+            <p>Description:<br> Resembles normal foot</p>
+            <p>Surg. N</p>
+            <p>ID: (STDF)</p>
+            <button class="buy-button" onclick="addToCart('STOF', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Talon Foot</h3>
+            <p>Price: 600eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br> Extends toe blades. 1d6 damage. (AP=knife)</p>
+            <p>Surg. N</p>
+            <p>ID: (TAL)</p>
+            <button class="buy-button" onclick="addToCart('TAL', 600)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Web Foot</h3>
+            <p>Price: 500eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Double swimming speed, +3 to swim skill</p>
+            <p>Surg. N</p>
+            <p>ID: (WEB)</p>
+            <button class="buy-button" onclick="addToCart('WEB', 500)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Grip Foot</h3>
+            <p>Price: 500eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Designed for better gripping strength. +2 to climb</p>
+            <p>Surg. N</p>
+            <p>ID: (GRPF)</p>
+            <button class="buy-button" onclick="addToCart('GRPF', 500)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Spike Heel Foot</h3>
+            <p>Price: 500eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br>Heel spikes for climbing or lethal kickis. 2d6 AP damage</p>
+            <p>Surg. N</p>
+            <p>ID: (SPK)</p>
+            <button class="buy-button" onclick="addToCart('SPK', 500)">add to cart</button>
+        </li>
+    </ul>
+</section>
+<script src="/js/cart.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Cyberlimbs</title>
+    <link rel="stylesheet" href="/css/pages.css">
+</head>
+
+<header>
+    <div class="cart-container">
+        <h1>Hendo's CyberStore<br>The best CyberStore in Night City</h1>
+        <a href="/html/cyberware/cyberware-cart.html" id="cart-count">
+            <img src="/images/compras.png" alt="Shopping cart">
+        </a>
+    </div>
+    <nav class="header-container">
+        <ul class="header-itens">
+            <a href="/html/cyberware/cyberware-index.html">Home</a>
+            <a href="/html/cyberware/fashionware.html">Fashionwares</a>
+            <a href="/html/cyberware/neuralware.html">Neuralwares</a>
+            <a href="/html/cyberware/implants.html">Implants</a>
+            <a href="/html/cyberware/bioware.html">Biowares</a>
+            <a href="/html/cyberware/cyberweapons.html">Body Cyberweapons</a>
+            <a href="/html/cyberware/cyberoptic.html">Cyberoptics</a>
+            <a href="/html/cyberware/cyberaudio.html">Cyberaudio</a>
+            <a href="/html/cyberware/handsnfeets.html">Hands & Feets</a>
+            <a href="/html/cyberware/built-ins.html">Cyberlimbs built ins</a>
+            <a href="/html/cyberware/limbs-cyberweapons.html">Limbs Cyberweapons</a>
+            <a href="/html/cyberware/linear-frames.html">Linear Frames</a>
+            <a href="/html/cyberware/body-plating.html">Body platings</a>
+            <a href="/html/cyberware/chips.html">Chips</a>
+        </ul>
+    </nav>
+</header>
+
+<section id="biowares" class="category">
+    <ul class="list">
+        <li>
+            <h3>Cyberarm</h3>
+            <p>Price: 3000eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br> Standard arm replacement (4 options allowed)</p>
+            <p>Surg. CR</p>
+            <p>ID: (-)</p>
+            <button class="buy-button" onclick="addToCart('Cyberarm', 3000)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Cyberleg</h3>
+            <p>Price: 2000eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br> Standard leg replacement (3 options allowed)Basic cyberleg</p>
+            <p>Surg. CR</p>
+            <p>ID: (-)</p>
+            <button class="buy-button" onclick="addToCart('Cyberleg', 2000)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Quick change mount</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 2</p>
+            <p>Description:<br> Allows 1 turn changing cyberware</p>
+            <p>Surg. N</p>
+            <p>ID: (QC)</p>
+            <button class="buy-button" onclick="addToCart('QC', 200)">add to cart</button> 
+        </li>
+
+        <li>
+            <h3>Hydraulic rams</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 3</p>
+            <p>Description:<br> Increase limb SDP to 30, 3x normal damages</p>
+            <p>Surg. N</p>
+            <p>ID: (HRAM)</p>
+            <button class="buy-button" onclick="addToCart('HRAM', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Thickend myomar</h3>
+            <p>Price: 250eb</p>
+            <p>HC: w</p>
+            <p>Description:<br> Increase limb SDP to 25, 2x normal damages. +50& on leaps </p>
+            <p>Surg. N</p>
+            <p>ID: (THK)</p>
+            <button class="buy-button" onclick="addToCart('THK', 250)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Reinforced joints</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br> Increase SDP by +5</p>
+            <p>Surg. N</p>
+            <p>ID: (RJ)</p>
+            <button class="buy-button" onclick="addToCart('RJ', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Artificial shoulder mount</h3>
+            <p>Price: 1500eb</p>
+            <p>HC: 2d6</p>
+            <p>Description:<br> Mount extra arms (2) bellow first set. 1 only</p>
+            <p>Surg. CR</p>
+            <p>ID: (ASHO)</p>
+            <button class="buy-button" onclick="addToCart('ASHO', 1500)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Microwave / EMP shielding</h3>
+            <p>Price: 300eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br> Limb is unaffected by microwave side effects</p>
+            <p>Surg. N</p>
+            <p>ID: (MSR)</p>
+            <button class="buy-button" onclick="addToCart('MSR', 300)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Plastic covering</h3>
+            <p>Price: 1-200eb</p>
+            <p>HC: 1</p>
+            <p>Description:<br> In colors, transparent, etc.</p>
+            <p>Surg. N</p>
+            <p>ID: (PSTK)</p>
+            <a href="plastic.html" class="buy-button">CHOOSE PATTERN</a>
+        </li>
+
+        <li>
+            <h3>Realskin</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 0</p>
+            <p>Description:<br> Limb looks like real (DIFICULT task) Lowers HC by 2d6</p>
+            <p>Surg. N</p>
+            <p>ID: (REAL)</p>
+            <button class="buy-button" onclick="addToCart('REAL', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Superchrome</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 3</p>
+            <p>Description:<br> Highgloss metallic covering</p>
+            <p>Surg. N</p>
+            <p>ID: (SUPR)</p>
+            <button class="buy-button" onclick="addToCart('SUPR', 200)">add to cart</button>
+        </li>
+
+        <li>
+            <h3>Armor</h3>
+            <p>Price: 200eb</p>
+            <p>HC: 1d6</p>
+            <p>Description:<br> Armor cyberlimb to SP 20</p>
+            <p>Surg. N</p>
+            <p>ID: (ARM)</p>
+            <button class="buy-button" onclick="addToCart('ARM', 200)">add to cart</button>
+        </li>
+
+    </ul>
+
+</section>
+<script src="/js/cart.js"></script>
+
+
+</body>
+
+
+</html>
